@@ -91,4 +91,4 @@ def render_graphs(cities, main_variable):
     return fig_city, fig_gender, fig_payment, fig_date_income, fig_product_income
 
 if __name__ == "__main__":
-    app.run_server(port=8051, debug=True)
+    app.run_server(debug=False)
